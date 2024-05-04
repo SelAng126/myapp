@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button mat-flat-button color="accent">Accent</button>
+    <mat-button-toggle-group name="favoriteColor" aria-label="Favorite Color">
+      <mat-button-toggle value="red">Red</mat-button-toggle>
+      <mat-button-toggle value="green">Green</mat-button-toggle>
+      <mat-button-toggle value="blue">Blue</mat-button-toggle>
+    </mat-button-toggle-group>
+    <mat-chip-set aria-label="Fish selection">
+      <mat-chip>One fish</mat-chip>
+      <mat-chip>Two fish</mat-chip>
+      <mat-chip>Three fish</mat-chip>
+      <mat-chip disabled>Four fish</mat-chip>
+    </mat-chip-set>
+
+    <router-outlet />
+  </body>
+</html>
